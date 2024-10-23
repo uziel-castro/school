@@ -1,0 +1,1429 @@
+{
+"questions": [
+{
+"question_id": 1,
+"question_text": "Which of the following can best protect against an employee inadvertently installing malware on a company system?",
+"choices": ["A: Host-based firewall", "B: System isolation", "C: Least privilege", "D: Application allow list"],
+"correct_answer": "D"
+},
+{
+"question_id": 2,
+"question_text": "Which of the following is the most common data loss path for an air-gapped network?",
+"choices": ["A: Bastion host", "B: Unsecured Bluetooth", "C: Unpatched OS", "D: Removable devices"],
+"correct_answer": "D"
+},
+{
+"question_id": 3,
+"question_text": "Which cryptographic attack leverages the probability of two different inputs producing the same hash output?",
+"choices": ["A: Rainbow table attack", "B: Brute force attack", "C: Birthday attack", "D: Dictionary attack"],
+"correct_answer": "C"
+},
+{
+"question_id": 4,
+"question_text": "A company mandates that all employees use smart cards for secure access. What is the best compensating control for contractors without smart cards?",
+"choices": ["A: Exempt them from access controls", "B: Provide a shared access key", "C: Provide temporary access badges", "D: Allow them to follow employees through secure entrances"],
+"correct_answer": "C"
+},
+{
+"question_id": 5,
+"question_text": "Which of the following security concepts best supports the principle of least privilege in access to sensitive HR files?",
+"choices": ["A: Integrity", "B: Availability", "C: Confidentiality", "D: Non-repudiation"],
+"correct_answer": "C"
+},
+{
+"question_id": 6,
+"question_text": "What is the primary risk of opening ports on a firewall for a SaaS system?",
+"choices": ["A: Default credentials", "B: Non-segmented network", "C: Supply chain vendor", "D: Vulnerable software"],
+"correct_answer": "B"
+},
+{
+"question_id": 7,
+"question_text": "Which document is most effective for assessing a vendor's security controls during vendor selection?",
+"choices": ["A: Business Partners Agreement (BPA)", "B: Service-Level Agreement (SLA)", "C: Master Service Agreement (MSA)", "D: Security Questionnaire"],
+"correct_answer": "D"
+},
+{
+"question_id": 8,
+"question_text": "Which of the following solutions would best control access to sensitive areas based on unique intrinsic characteristics?",
+"choices": ["A: Security personnel", "B: Biometric access controls", "C: Surveillance cameras", "D: Access badges with magnetic stripes"],
+"correct_answer": "B"
+},
+{
+"question_id": 9,
+"question_text": "What is the purpose of a wildcard digital certificate?",
+"choices": ["A: To cover multiple top-level domains", "B: To cover multiple subdomains", "C: To validate domain ownership", "D: To secure email communications"],
+"correct_answer": "B"
+},
+{
+"question_id": 10,
+"question_text": "Which principles of human manipulation are commonly used in social engineering attacks like impersonation?",
+"choices": ["A: Fright, Authority, Scarcity", "B: Authority, Intimidation, Urgency", "C: Trust, Fright, Urgency", "D: Scarcity, Trust, Authority"],
+"correct_answer": "B"
+}, 
+{
+"question_id": 11,
+"question_text": "Which of the following is a reason to implement server isolation in a network?",
+"choices": ["A: To prevent unauthorized access", "B: To improve server performance", "C: To allow unrestricted data flow", "D: To enable faster network speeds"],
+"correct_answer": "A"
+},
+{
+"question_id": 12,
+"question_text": "Which of the following best describes the principle of defense in depth?",
+"choices": ["A: Using multiple firewalls", "B: Implementing a single, strong control", "C: Layering security measures to protect data", "D: Segmenting the network"],
+"correct_answer": "C"
+},
+{
+"question_id": 13,
+"question_text": "What type of malware restricts access to the victim's data and demands payment for its release?",
+"choices": ["A: Trojan", "B: Spyware", "C: Ransomware", "D: Rootkit"],
+"correct_answer": "C"
+},
+{
+"question_id": 14,
+"question_text": "Which of the following would be considered an insider threat?",
+"choices": ["A: A hacker attacking from the outside", "B: A disgruntled employee leaking sensitive data", "C: An external business partner accessing the network", "D: A competitor attempting to gain trade secrets"],
+"correct_answer": "B"
+},
+{
+"question_id": 15,
+"question_text": "What is the primary purpose of a vulnerability scan?",
+"choices": ["A: To detect unauthorized users", "B: To identify weaknesses in systems", "C: To patch known vulnerabilities", "D: To establish network baselines"],
+"correct_answer": "B"
+},
+{
+"question_id": 16,
+"question_text": "Which of the following is a symmetric encryption algorithm?",
+"choices": ["A: RSA", "B: ECC", "C: AES", "D: DSA"],
+"correct_answer": "C"
+},
+{
+"question_id": 17,
+"question_text": "Which type of attack involves an attacker sending multiple SYN requests to overwhelm a server?",
+"choices": ["A: Man-in-the-middle attack", "B: SYN flood", "C: DNS poisoning", "D: Replay attack"],
+"correct_answer": "B"
+},
+{
+"question_id": 18,
+"question_text": "What is the purpose of a honeypot in a security network?",
+"choices": ["A: To store critical data securely", "B: To detect and analyze intrusion attempts", "C: To prevent phishing attacks", "D: To encrypt sensitive information"],
+"correct_answer": "B"
+},
+{
+"question_id": 19,
+"question_text": "Which of the following attacks specifically targets a cryptographic weakness by finding two different inputs that produce the same hash output?",
+"choices": ["A: Brute force attack", "B: Dictionary attack", "C: Birthday attack", "D: Rainbow table attack"],
+"correct_answer": "C"
+},
+{
+"question_id": 20,
+"question_text": "Which of the following policies defines the rules for handling data during a security breach?",
+"choices": ["A: Privacy policy", "B: Incident response policy", "C: Data retention policy", "D: Acceptable use policy"],
+"correct_answer": "B"
+},
+{
+"question_id": 21,
+"question_text": "Which of the following encryption algorithms uses the Rijndael cipher?",
+"choices": ["A: DES", "B: AES", "C: RSA", "D: 3DES"],
+"correct_answer": "B"
+},
+{
+"question_id": 22,
+"question_text": "What is the primary purpose of asymmetric encryption in a cryptographic system?",
+"choices": ["A: To generate random keys", "B: To provide confidentiality through public and private keys", "C: To create secure hash values", "D: To establish a VPN connection"],
+"correct_answer": "B"
+},
+{
+"question_id": 23,
+"question_text": "Which cryptographic algorithm is commonly used for digital signatures?",
+"choices": ["A: AES", "B: MD5", "C: RSA", "D: Blowfish"],
+"correct_answer": "C"
+},
+{
+"question_id": 24,
+"question_text": "Which of the following algorithms is considered vulnerable due to its small key size?",
+"choices": ["A: AES", "B: SHA-256", "C: DES", "D: RSA-2048"],
+"correct_answer": "C"
+},
+{
+"question_id": 25,
+"question_text": "What type of cryptographic algorithm is ECC (Elliptic Curve Cryptography)?",
+"choices": ["A: Symmetric", "B: Hashing", "C: Asymmetric", "D: Stream cipher"],
+"correct_answer": "C"
+},
+{
+"question_id": 26,
+"question_text": "Which of the following algorithms is commonly used to ensure data integrity?",
+"choices": ["A: AES", "B: RSA", "C: SHA-256", "D: DES"],
+"correct_answer": "C"
+},
+{
+"question_id": 27,
+"question_text": "What is the primary purpose of a key exchange algorithm like Diffie-Hellman?",
+"choices": ["A: To encrypt data", "B: To exchange cryptographic keys securely", "C: To hash data", "D: To create digital certificates"],
+"correct_answer": "B"
+},
+{
+"question_id": 28,
+"question_text": "Which of the following best describes the use of salting in encryption?",
+"choices": ["A: Adding random data to a hash to prevent collisions", "B: Encrypting the hash function output", "C: Securing the key exchange process", "D: Using asymmetric keys to protect passwords"],
+"correct_answer": "A"
+},
+{
+"question_id": 29,
+"question_text": "What is the main advantage of using Elliptic Curve Cryptography (ECC) over RSA?",
+"choices": ["A: ECC provides faster decryption speeds", "B: ECC uses longer keys", "C: ECC offers similar security with smaller key sizes", "D: ECC is better for symmetric encryption"],
+"correct_answer": "C"
+},
+{
+"question_id": 30,
+"question_text": "Which type of attack attempts to break a cipher by analyzing large amounts of encrypted data to uncover the key?",
+"choices": ["A: Brute force", "B: Side-channel attack", "C: Known-plaintext attack", "D: Cryptanalysis"],
+"correct_answer": "D"
+},
+{
+"question_id": 31,
+"question_text": "Which of the following attacks exploits vulnerabilities in WPA2 using a technique known as KRACK (Key Reinstallation Attacks)?",
+"choices": ["A: Evil twin attack", "B: Packet sniffing", "C: Rogue AP", "D: Replay attack"],
+"correct_answer": "D"
+},
+{
+"question_id": 32,
+"question_text": "An attacker gains access to a company’s systems by using a vulnerability in the input validation of web forms. What type of attack is this?",
+"choices": ["A: SQL Injection", "B: Cross-Site Scripting", "C: Directory Traversal", "D: Buffer Overflow"],
+"correct_answer": "A"
+},
+{
+"question_id": 33,
+"question_text": "Which of the following best describes a risk associated with deploying a cloud-based disaster recovery solution?",
+"choices": ["A: Increased latency in data recovery", "B: Exposure to a single point of failure", "C: Dependence on the provider's security controls", "D: Decreased data integrity"],
+"correct_answer": "C"
+},
+{
+"question_id": 34,
+"question_text": "What is the primary difference between a digital certificate and a digital signature?",
+"choices": ["A: Digital certificates provide data encryption, while digital signatures provide authentication", "B: Digital certificates authenticate a user’s identity, while digital signatures ensure data integrity", "C: Digital certificates encrypt data, while digital signatures create secure hash values", "D: Digital certificates validate public keys, while digital signatures encrypt private keys"],
+"correct_answer": "B"
+},
+{
+"question_id": 35,
+"question_text": "Which of the following should be used to secure communications between two sites when encryption overhead needs to be minimized?",
+"choices": ["A: IPSec tunnel mode", "B: GRE tunnel", "C: SSH tunneling", "D: L2TP"],
+"correct_answer": "B"
+},
+{
+"question_id": 36,
+"question_text": "Which of the following best describes the role of a Bastion host in a network security configuration?",
+"choices": ["A: It functions as a load balancer", "B: It serves as a primary intrusion detection system", "C: It acts as a highly secured gateway between two networks", "D: It is used to mitigate DoS attacks"],
+"correct_answer": "C"
+},
+{
+"question_id": 37,
+"question_text": "In which type of attack does the attacker inject a malicious script into a trusted website, which is then executed in the user's browser?",
+"choices": ["A: SQL Injection", "B: Cross-Site Scripting (XSS)", "C: Clickjacking", "D: Command Injection"],
+"correct_answer": "B"
+},
+{
+"question_id": 38,
+"question_text": "Which of the following is the best method for securing the storage and transmission of user passwords?",
+"choices": ["A: Storing passwords in plaintext", "B: Storing salted and hashed passwords", "C: Encrypting passwords using symmetric encryption", "D: Using password vaults to store user credentials"],
+"correct_answer": "B"
+},
+{
+"question_id": 39,
+"question_text": "Which of the following attacks involves intercepting a user’s session and injecting false information into it?",
+"choices": ["A: Replay attack", "B: Session hijacking", "C: MITM (Man-In-The-Middle)", "D: Cross-Site Request Forgery (CSRF)"],
+"correct_answer": "C"
+},
+{
+"question_id": 40,
+"question_text": "An organization has implemented multifactor authentication (MFA) to secure its network. Which of the following is an example of ‘something you are’?",
+"choices": ["A: Password", "B: Security token", "C: Fingerprint", "D: PIN"],
+"correct_answer": "C"
+},
+{
+"question_id": 41,
+"question_text": "Which of the following scenarios demonstrates a false positive in an intrusion detection system (IDS)?",
+"choices": ["A: The IDS fails to detect a malicious attack", "B: The IDS alerts to non-malicious activity as a threat", "C: The IDS detects and blocks an attack accurately", "D: The IDS detects an attack that was already mitigated by a firewall"],
+"correct_answer": "B"
+},
+{
+"question_id": 42,
+"question_text": "Which of the following protocols is used to ensure that data is not altered during transmission?",
+"choices": ["A: SSH", "B: TLS", "C: IPsec", "D: SFTP"],
+"correct_answer": "B"
+},
+{
+"question_id": 43,
+"question_text": "Which type of policy outlines how long certain types of data should be retained?",
+"choices": ["A: Privacy policy", "B: Data retention policy", "C: Security policy", "D: Acceptable use policy"],
+"correct_answer": "B"
+},
+{
+"question_id": 44,
+"question_text": "An attacker is able to trick users into clicking on something different from what they perceive by layering transparent images over the target content. What type of attack is this?",
+"choices": ["A: Cross-Site Scripting (XSS)", "B: Clickjacking", "C: SQL Injection", "D: Session Hijacking"],
+"correct_answer": "B"
+},
+{
+"question_id": 45,
+"question_text": "Which of the following cryptographic techniques provides both authentication and integrity for a message?",
+"choices": ["A: AES", "B: MD5", "C: HMAC", "D: RSA"],
+"correct_answer": "C"
+},
+{
+"question_id": 46,
+"question_text": "Which of the following describes a distributed denial-of-service (DDoS) attack?",
+"choices": ["A: Exploiting a vulnerability in a system to gain unauthorized access", "B: Sending a large amount of traffic to a target from multiple sources", "C: Manually exploiting a weakness in the network architecture", "D: Utilizing social engineering techniques to gain network access"],
+"correct_answer": "B"
+},
+{
+"question_id": 47,
+"question_text": "Which type of vulnerability scanning involves credentials being provided to the scanner for deeper system analysis?",
+"choices": ["A: Non-intrusive scanning", "B: Unauthenticated scanning", "C: Authenticated scanning", "D: Passive scanning"],
+"correct_answer": "C"
+},
+{
+"question_id": 48,
+"question_text": "Which of the following is the primary risk associated with outdated firmware on network devices?",
+"choices": ["A: Increased device latency", "B: Higher power consumption", "C: Vulnerability to exploits and attacks", "D: Inability to perform network segmentation"],
+"correct_answer": "C"
+},
+{
+"question_id": 49,
+"question_text": "Which of the following best describes the process of creating smaller, logically separated sub-networks to improve security?",
+"choices": ["A: VLAN", "B: NAT", "C: Firewall zoning", "D: Proxying"],
+"correct_answer": "A"
+},
+{
+"question_id": 50,
+"question_text": "An organization wants to enable remote employees to securely access the corporate network. Which of the following technologies is best suited for this purpose?",
+"choices": ["A: Virtual private network (VPN)", "B: Remote desktop protocol (RDP)", "C: Secure shell (SSH)", "D: Transport layer security (TLS)"],
+"correct_answer": "A"
+},
+{
+"question_id": 51,
+"question_text": "What is a boot sector virus?",
+"choices": [
+"A: A virus that infects the executable files",
+"B: A virus that hides in a document's macros",
+"C: A virus stored in the first sector of a hard drive, loaded into memory upon boot-up",
+"D: A virus that mutates its code to evade detection"
+],
+"correct_answer": "C"
+},
+{
+"question_id": 52,
+"question_text": "What is a polymorphic virus?",
+"choices": [
+"A: A virus that infects executable files",
+"B: A virus that changes its form every time it is executed",
+"C: A virus that hides in a document's macros",
+"D: A virus that rewrites itself before infecting a new file"
+],
+"correct_answer": "B"
+},
+{
+"question_id": 53,
+"question_text": "Which virus is known for embedding itself into documents and executing when the document is opened?",
+"choices": [
+"A: Macro virus",
+"B: Boot sector virus",
+"C: Program virus",
+"D: Encrypted virus"
+],
+"correct_answer": "A"
+},
+{
+"question_id": 54,
+"question_text": "What type of virus combines both boot sector and program viruses?",
+"choices": [
+"A: Encrypted virus",
+"B: Multipartite virus",
+"C: Metamorphic virus",
+"D: Stealth virus"
+],
+"correct_answer": "B"
+},
+{
+"question_id": 55,
+"question_text": "What is the function of a stealth virus?",
+"choices": [
+"A: It rewrites its own code entirely before infecting a file",
+"B: It hides itself to avoid detection by antivirus software",
+"C: It encrypts its content to evade detection",
+"D: It infects both the boot sector and system files"
+],
+"correct_answer": "B"
+},
+{
+"question_id": 56,
+"question_text": "What is a remote access trojan (RAT)?",
+"choices": [
+"A: A virus that infects boot sectors",
+"B: A virus that changes its form with each execution",
+"C: Malware that allows an attacker to control a computer remotely",
+"D: A virus that targets system files"
+],
+"correct_answer": "C"
+},
+{
+"question_id": 57,
+"question_text": "Which of the following describes a rootkit?",
+"choices": [
+"A: A software that locks a system until a ransom is paid",
+"B: Malware that grants administrative control over a system without detection",
+"C: A program that self-replicates to infect other systems",
+"D: A benign hidden feature in software"
+],
+"correct_answer": "B"
+},
+{
+"question_id": 58,
+"question_text": "Which method do attackers use to control compromised systems in a botnet?",
+"choices": [
+"A: Ransomware",
+"B: Stealth virus",
+"C: DLL injection",
+"D: Command and control (C2) server"
+],
+"correct_answer": "D"
+},
+{
+"question_id": 59,
+"question_text": "What is a logic bomb?",
+"choices": [
+"A: Malware that hides in system memory",
+"B: Code that executes maliciously only when certain conditions are met",
+"C: A virus that infects both boot sectors and program files",
+"D: Malware that disguises itself as legitimate software"
+],
+"correct_answer": "B"
+},
+{
+"question_id": 60,
+"question_text": "What is an example of a fileless malware technique?",
+"choices": [
+"A: Encrypting the malware to avoid detection",
+"B: Running malicious code directly as a script without writing files to the disk",
+"C: Hiding malware in macros of documents",
+"D: Self-replicating without user interaction"
+],
+"correct_answer": "B"
+},
+{
+"question_id": 61,
+"question_text": "What does a dropper do in the context of malware?",
+"choices": [
+"A: It encrypts files to demand ransom",
+"B: It installs or runs other types of malware embedded in its payload",
+"C: It self-replicates across a network",
+"D: It rewrites itself to avoid detection"
+],
+"correct_answer": "B"
+},
+{
+"question_id": 62,
+"question_text": "What is DLL injection?",
+"choices": [
+"A: A method of exploiting a web server's DLL file",
+"B: A technique where malicious code is inserted into a running process using Dynamic Link Libraries",
+"C: A type of denial of service attack",
+"D: A way to avoid antivirus detection by rewriting code"
+],
+"correct_answer": "B"
+},
+{
+"question_id": 63,
+"question_text": "What is the role of a downloader in malware attacks?",
+"choices": [
+"A: It encrypts files for ransom",
+"B: It replicates itself across systems",
+"C: It connects to the internet to retrieve additional tools",
+"D: It hides itself to avoid detection"
+],
+"correct_answer": "C"
+},
+{
+"question_id": 64,
+"question_text": "Which of the following is a common feature of ransomware?",
+"choices": [
+"A: It encrypts a victim's files until a ransom is paid",
+"B: It provides remote access to a system",
+"C: It gathers information without user consent",
+"D: It infects files on boot"
+],
+"correct_answer": "A"
+},
+{
+"question_id": 65,
+"question_text": "What method is commonly used in a worm attack?",
+"choices": [
+"A: Requiring user interaction to spread",
+"B: Self-replicating without user interaction",
+"C: Encrypting files to demand ransom",
+"D: Injecting code into a running process"
+],
+"correct_answer": "B"
+},
+{
+"question_id": 66,
+"question_text": "What is spyware?",
+"choices": [
+"A: Software that encrypts files for ransom",
+"B: Software that secretly gathers user information without consent",
+"C: Software that self-replicates without user interaction",
+"D: Software that injects malicious code into a running process"
+],
+"correct_answer": "B"
+},
+{
+"question_id": 67,
+"question_text": "What is adware primarily used for?",
+"choices": [
+"A: Gathering keystrokes",
+"B: Displaying advertisements based on user activity",
+"C: Encrypting files for ransom",
+"D: Self-replicating across a network"
+],
+"correct_answer": "B"
+},
+{
+"question_id": 68,
+"question_text": "Which of the following describes grayware?",
+"choices": [
+"A: Software that gathers user information",
+"B: Software that allows remote access to a system",
+"C: Software that causes a system to behave improperly but is not classified as malware",
+"D: A benign hidden feature in legitimate software"
+],
+"correct_answer": "C"
+},
+{
+"question_id": 69,
+"question_text": "What technique do attackers use to gain control of system processes through dynamic link libraries?",
+"choices": [
+"A: Worm replication",
+"B: DLL Injection",
+"C: Command injection",
+"D: Logic bomb"
+],
+"correct_answer": "B"
+},
+{
+"question_id": 70,
+"question_text": "Which of the following best describes a botnet?",
+"choices": [
+"A: A system of computers under the control of a single master node",
+"B: A virus that hides in a document's macros",
+"C: A network of computers infected with rootkits",
+"D: A piece of software that replicates across the network without user interaction"
+],
+"correct_answer": "A"
+},
+{
+"question_id": 71,
+"question_text": "What is a water hole attack?",
+"choices": [
+"A: A type of social engineering attack targeting privileged users",
+"B: Placing malware on websites that users of a target organization frequently visit",
+"C: An attack on network routing tables",
+"D: A virus hidden in email attachments"
+],
+"correct_answer": "B"
+},
+{
+"question_id": 72,
+"question_text": "What method do logic bombs use to execute their payload?",
+"choices": [
+"A: Execution is triggered when specific conditions are met",
+"B: Execution occurs when a user opens an infected document",
+"C: Execution occurs upon installation of the software",
+"D: Execution happens after rebooting the system"
+],
+"correct_answer": "A"
+},
+{
+"question_id": 73,
+"question_text": "Which of the following is a form of malware that combines multiple attack methods like boot sector and file infections?",
+"choices": [
+"A: Multipartite virus",
+"B: Encrypted virus",
+"C: Metamorphic virus",
+"D: Trojan horse"
+],
+"correct_answer": "A"
+},
+{
+"question_id": 74,
+"question_text": "What is a backdoor in the context of computer security?",
+"choices": [
+"A: A malware that replicates itself automatically",
+"B: A mechanism to bypass normal authentication procedures",
+"C: A virus that attaches itself to the boot sector",
+"D: A malicious program that encrypts files"
+],
+"correct_answer": "B"
+},
+{
+"question_id": 75,
+"question_text": "Which of the following techniques is used to avoid detection by signature-based security systems?",
+"choices": [
+"A: Fileless malware",
+"B: Encrypted virus",
+"C: Logic bomb",
+"D: Stealth virus"
+],
+"correct_answer": "A"
+},
+{
+"question_id": 76,
+"question_text": "Which of the following refers to an attack where malicious code is inserted into a legitimate process during runtime?",
+"choices": [
+"A: Code injection",
+"B: Fileless malware",
+"C: Dropper",
+"D: Rootkit"
+],
+"correct_answer": "A"
+},
+{
+"question_id": 77,
+"question_text": "What is the primary purpose of driver manipulation in malware attacks?",
+"choices": [
+"A: To hide malicious code in document macros",
+"B: To gain control of system-level device drivers",
+"C: To inject malicious code into running processes",
+"D: To encrypt files for ransom"
+],
+"correct_answer": "B"
+},
+{
+"question_id": 78,
+"question_text": "Which type of malware allows an attacker to install additional malware on an infected machine?",
+"choices": [
+"A: Downloader",
+"B: Worm",
+"C: Ransomware",
+"D: Logic bomb"
+],
+"correct_answer": "A"
+},
+{
+"question_id": 79,
+"question_text": "What is the purpose of a shellcode in an exploit?",
+"choices": [
+"A: To encrypt data in transit",
+"B: To gather keystroke data from the user",
+"C: To execute a small payload that runs an exploit",
+"D: To bypass access control mechanisms"
+],
+"correct_answer": "C"
+},
+{
+"question_id": 80,
+"question_text": "What does a 'dropper' do in the context of malware?",
+"choices": [
+"A: It encrypts files and demands a ransom",
+"B: It self-replicates across systems",
+"C: It delivers and installs additional malware components",
+"D: It hides malware within system files"
+],
+"correct_answer": "C"
+},
+{
+"question_id": 81,
+"question_text": "What is a common technique used in DLL injection?",
+"choices": [
+"A: Command injection",
+"B: Hijacking a legitimate process and injecting malicious code",
+"C: Encrypting files and demanding ransom",
+"D: Executing a script without writing to disk"
+],
+"correct_answer": "B"
+},
+{
+"question_id": 82,
+"question_text": "Which malware is specifically designed to gather information without the user's knowledge and relay it to an attacker?",
+"choices": [
+"A: Worm",
+"B: Rootkit",
+"C: Spyware",
+"D: Ransomware"
+],
+"correct_answer": "C"
+},
+{
+"question_id": 83,
+"question_text": "What is the primary purpose of a host-based firewall?",
+"choices": [
+"A: To monitor the entire network for malicious traffic",
+"B: To filter incoming and outgoing traffic on a specific device",
+"C: To alert users of phishing attempts",
+"D: To block viruses from infecting network systems"
+],
+"correct_answer": "B"
+},
+{
+"question_id": 84,
+"question_text": "What is a signature-based intrusion detection system (IDS)?",
+"choices": [
+"A: An IDS that alerts on anomalies from established baselines",
+"B: An IDS that flags deviations from established security policies",
+"C: An IDS that looks for specific patterns or bytes that indicate known attacks",
+"D: An IDS that responds to real-time network traffic changes"
+],
+"correct_answer": "C"
+},
+{
+"question_id": 85,
+"question_text": "Which of the following would be classified as a 'true positive' in an intrusion detection system?",
+"choices": [
+"A: An alert triggered by normal network activity",
+"B: An actual attack correctly identified and flagged",
+"C: An attack not flagged by the system",
+"D: Normal activity flagged as malicious"
+],
+"correct_answer": "B"
+},
+{
+"question_id": 86,
+"question_text": "Which of the following is the best method for preventing data loss at the endpoint level?",
+"choices": [
+"A: Data Loss Prevention (DLP) software",
+"B: Network-based intrusion prevention systems",
+"C: Server redundancy measures",
+"D: Physical access controls"
+],
+"correct_answer": "A"
+},
+{
+"question_id": 87,
+"question_text": "Which of the following describes a true negative in terms of threat detection?",
+"choices": [
+"A: A legitimate threat that was not detected",
+"B: An attack correctly flagged by the system",
+"C: Normal behavior that is correctly identified as non-malicious",
+"D: Malicious activity flagged as safe"
+],
+"correct_answer": "C"
+},
+{
+"question_id": 88,
+"question_text": "What is the main advantage of using anomaly-based intrusion detection systems (IDS)?",
+"choices": [
+"A: They detect known threats based on pre-configured signatures",
+"B: They monitor systems and compare them against normal baseline behavior to detect unknown threats",
+"C: They prevent attacks from occurring in real-time",
+"D: They are less expensive to implement than signature-based systems"
+],
+"correct_answer": "B"
+},
+{
+"question_id": 89,
+"question_text": "Which of the following components is critical to ensuring data integrity?",
+"choices": [
+"A: Hashing algorithms",
+"B: Firewalls",
+"C: Antivirus software",
+"D: Physical security controls"
+],
+"correct_answer": "A"
+},
+{
+"question_id": 90,
+"question_text": "Which of the following describes the main purpose of a network-based intrusion detection system (NIDS)?",
+"choices": [
+"A: To monitor activity on individual devices for suspicious activity",
+"B: To detect unauthorized access attempts and log suspicious network traffic",
+"C: To block and stop network attacks in real-time",
+"D: To detect malicious activity only at the endpoint level"
+],
+"correct_answer": "B"
+},
+{
+"question_id": 91,
+"question_text": "What is the purpose of content filters in network security?",
+"choices": [
+"A: To block malicious traffic from entering the network",
+"B: To block external files like JavaScript, images, or web pages from loading in a browser",
+"C: To scan all incoming emails for malicious attachments",
+"D: To encrypt all network traffic"
+],
+"correct_answer": "B"
+},
+{
+"question_id": 92,
+"question_text": "Which of the following best describes endpoint Data Loss Prevention (DLP) systems?",
+"choices": [
+"A: They monitor and control data transfers across the network perimeter",
+"B: They prevent unauthorized software from running on systems",
+"C: They monitor data in use on devices and alert administrators or stop file transfers",
+"D: They create encrypted backups of critical data"
+],
+"correct_answer": "C"
+},
+{
+"question_id": 93,
+"question_text": "What is a common characteristic of a rootkit?",
+"choices": [
+"A: It is designed to encrypt files until a ransom is paid",
+"B: It allows an attacker to gain administrative-level control of a system while remaining hidden",
+"C: It monitors keystrokes to capture user passwords",
+"D: It self-replicates and spreads to other systems"
+],
+"correct_answer": "B"
+},
+{
+"question_id": 94,
+"question_text": "Which of the following is a technique for avoiding detection by antivirus software?",
+"choices": [
+"A: Signature-based detection",
+"B: Anomaly-based detection",
+"C: Polymorphic code",
+"D: Firewall rules"
+],
+"correct_answer": "C"
+},
+{
+"question_id": 95,
+"question_text": "What is a primary function of fileless malware?",
+"choices": [
+"A: It encrypts files and demands ransom",
+"B: It avoids detection by executing in memory without writing to the disk",
+"C: It infects files during system boot",
+"D: It targets network routing protocols"
+],
+"correct_answer": "B"
+},
+{
+"question_id": 96,
+"question_text": "What is the main purpose of regular audits in maintaining system security?",
+"choices": [
+"A: To encrypt sensitive data before transmission",
+"B: To review logs and operations ensuring that only authorized changes have been made",
+"C: To update firewall rules for network traffic",
+"D: To track user activities and prevent data theft"
+],
+"correct_answer": "B"
+},
+{
+"question_id": 97,
+"question_text": "What is the 'five nines' standard of availability?",
+"choices": [
+"A: It refers to a system uptime guarantee of 99.95%",
+"B: It refers to a system guaranteeing no more than 5 hours of downtime per year",
+"C: It refers to a system uptime guarantee of 99.999%, equating to no more than 5.26 minutes of downtime per year",
+"D: It refers to having five backup systems for every network server"
+],
+"correct_answer": "C"
+},
+{
+"question_id": 98,
+"question_text": "Which of the following describes server redundancy?",
+"choices": [
+"A: Storing identical copies of data on multiple servers",
+"B: Using multiple servers in a load balancing or failover configuration to maintain service availability",
+"C: Ensuring all server logs are backed up periodically",
+"D: Isolating each server on its own VLAN to reduce attack surfaces"
+],
+"correct_answer": "B"
+},
+{
+"question_id": 99,
+"question_text": "What is the primary purpose of hashing?",
+"choices": [
+"A: To encrypt sensitive data",
+"B: To ensure data integrity by creating a fixed-size digital fingerprint",
+"C: To mask sensitive data from unauthorized users",
+"D: To protect data from being modified during transmission"
+],
+"correct_answer": "B"
+},
+{
+"question_id": 100,
+"question_text": "What is the role of a digital signature in cybersecurity?",
+"choices": [
+"A: To encrypt data for secure transmission",
+"B: To ensure both the integrity and authenticity of a file or message",
+"C: To create a checksum to verify data transmission accuracy",
+"D: To hide sensitive data from unauthorized users"
+],
+"correct_answer": "B"
+},
+{
+"question_id": 101,
+"question_text": "If a person knows a control exists, and this control keeps him or her from performing a malicious act, what type of control would this be classified as?",
+"choices": ["A. Preventive control","B. Corrective control","C. Deterrent control","D. Compensating control"],
+"correct_answer": "C"
+},
+{
+"question_id": 102,
+"question_text": "Your manager has asked that you create a forensics image of an employee’s hard drive. What tool would you use?",
+"choices": ["A. FTK Imager","B. WinHex","C. Autopsy","D. Nessus"],
+"correct_answer": "A"
+},
+{
+"question_id": 103,
+"question_text": "Which of the following attacks targets relational databases that reside behind Web applications?",
+"choices": [
+"A. SQL injection attack",
+"B. LDAP injection attack",
+"C. Directory traversal attack",
+"D. Integer overflow attack"
+],
+"correct_answer": "A"
+},
+{
+"question_id": 104,
+"question_text": "What is the biggest difference between EAP-TLS and EAP-TTLS?",
+"choices": [
+"A. EAP-TTLS needs server and client certificates; EAP-TLS only needs server certificates",
+"B. EAP-TTLS can use unsigned certificates; EAP-TLS must have third-party signed certificates",
+"C. EAP-TLS can use unsigned certificates; EAP-TTLS must have third-party signed certificates",
+"D. EAP-TLS needs server and client certificates; EAP-TTLS only needs server certificates"
+],
+"correct_answer": "D"
+},
+{
+"question_id": 105,
+"question_text": "What is the term used to describe the characteristic of a software system to process higher workloads on its current resources or on additional resources without interruption?",
+"choices": [
+"A. Elasticity",
+"B. Scalability",
+"C. Continuous deployment",
+"D. Continuous delivery"
+],
+"correct_answer": "B"
+},
+{
+"question_id": 106,
+"question_text": "In terms of mobile deployment models, choose the option that goes from least restrictive to most restrictive.",
+"choices": [
+"A. CYOD, COBO, BYOD, COPE",
+"B. BYOD, CYOD, COPE, COBO",
+"C. COBO, BYOD, COPE, CYOD",
+"D. COBO, COPE, CYOD, BYOD"
+],
+"correct_answer": "B"
+},
+{
+"question_id": 107,
+"question_text": "Which of the following terms is commonly used to describe a device that displays a random number for 30 to 60 seconds that is used along with a username and password in order to log on?",
+"choices": [
+"A. Smart token",
+"B. Logical token",
+"C. Windows token",
+"D. Hardware token"
+],
+"correct_answer": "D"
+},
+{
+"question_id": 108,
+"question_text": "What tool would you use to group users into departments if their geographical location is less important than their department?",
+"choices": [
+"A. Active Directory",
+"B. RSA",
+"C. IPSec PSK",
+"D. WEP"
+],
+"correct_answer": "A"
+},
+{
+"question_id": 109,
+"question_text": "A digital certificate may contain all of the following pieces of information except what?",
+"choices": [
+"A. Public key of the subject",
+"B. Private key of the issuer",
+"C. Serial number",
+"D. Algorithm"
+],
+"correct_answer": "B"
+},
+{
+"question_id": 110,
+"question_text": "Which of the following is the correct sequence of events?",
+"choices": [
+"A. Identification, authorization, authentication",
+"B. Identification, authentication, authorization",
+"C. Authorization, identification, authentication",
+"D. Authentication, authorization, identification"
+],
+"correct_answer": "B"
+},
+{
+"question_id": 111,
+"question_text": "What type of malware gathers user activity data without user consent?",
+"choices": [
+"A. Ransomware",
+"B. Trojan",
+"C. Spyware",
+"D. Rootkit"
+],
+"correct_answer": "C"
+},
+{
+"question_id": 112,
+"question_text": "Which of the following terms indicates the length of time a device is expected to last in operation, and only a single, definitive failure will occur and will require that the device be replaced rather than repaired?",
+"choices": [
+"A. Mean time between failures",
+"B. Mean time to recovery",
+"C. Mean time to failure",
+"D. Mean time to replace"
+],
+"correct_answer": "C"
+},
+{
+"question_id": 113,
+"question_text": "Which of the following describes an alternate processing site that is instantly available in the event of a disaster?",
+"choices": [
+"A. Reciprocal site",
+"B. Cold site",
+"C. Warm site",
+"D. Hot site"
+],
+"correct_answer": "D"
+},
+{
+"question_id": 114,
+"question_text": "You are a network administrator. Users log on to their computers with their usernames and passwords. You configure PKI certificates on user stations to enable them to launch remote desktop applications without providing logon credentials. What have you configured?",
+"choices": [
+"A. SSL",
+"B. TLS",
+"C. Kerberos",
+"D. Single sign-on"
+],
+"correct_answer": "D"
+},
+{
+"question_id": 115,
+"question_text": "An attacker calls the front desk of a branch office and tells the receptionist he is the senior network engineer working on an approaching e-mail server upgrade. He then asks the receptionist for her e-mail password. What type of attack is this?",
+"choices": [
+"A. E-mail",
+"B. On-path",
+"C. Social engineering",
+"D. Telephone"
+],
+"correct_answer": "C"
+},
+{
+"question_id": 116,
+"question_text": "You need to prevent attacks on your company’s wireless network by securing the access points from unauthorized remote access. Which of the following security techniques should you implement?",
+"choices": [
+"A. Restrict remote access to direct wired connections",
+"B. Enable authentication with strong passwords",
+"C. Disable SSID broadcast",
+"D. Disable 802.11g/n mixed mode"
+],
+"correct_answer": "B"
+},
+{
+"question_id": 117,
+"question_text": "After an incident, which of the following security measures can you implement to prevent customer credit card numbers from being sent outside of your organization via e-mail?",
+"choices": [
+"A. Use an anti-spam filter to scan outbound messages for credit card numbers",
+"B. Employ data loss prevention software configured to block messages containing credit card numbers",
+"C. Encrypt the customer credit card number database",
+"D. Encrypt any attachments before sending e-mail messages"
+],
+"correct_answer": "B"
+},
+{
+"question_id": 118,
+"question_text": "Which of the following formal management efforts is a formalized process that involves both long-term and short-term infrastructure changes?",
+"choices": [
+"A. Upgrade management",
+"B. Account management",
+"C. Patch management",
+"D. Change management"
+],
+"correct_answer": "D"
+},
+{
+"question_id": 119,
+"question_text": "Which of the following is the most comprehensive and expensive form of disaster recovery exercise?",
+"choices": [
+"A. Tabletop exercise",
+"B. Documentation review",
+"C. Full-scale test",
+"D. Walkthrough test"
+],
+"correct_answer": "C"
+},
+{
+"question_id": 120,
+"question_text": "What name is given to a network that exists between a private LAN and the Internet?",
+"choices": [
+"A. Honeynet",
+"B. WAN",
+"C. VLAN",
+"D. Screened subnet"
+],
+"correct_answer": "D"
+},
+{
+"question_id": 121,
+"question_text": "What process is used to review and validate continuity of operations planning?",
+"choices": ["A. After-action reports", "B. Exercises/tabletop", "C. Failover", "D. Alternate processing sites"],
+"correct_answer": "B"
+},
+{
+"question_id": 122,
+"question_text": "You need to utilize certificates for a new web application so that users can trust that the application is connecting to an authenticated server that belongs to your organization. In cryptography, which of the following information assurance objectives is met by using digital certificates?",
+"choices": ["A. Nonrepudiation", "B. Integrity", "C. Confidentiality", "D. Authentication"],
+"correct_answer": "D"
+},
+{
+"question_id": 123,
+"question_text": "Why is it so important to properly implement and maintain a legal hold?",
+"choices": ["A. A judge can determine that a hold request violation did not affect the jury’s decision", "B. Major jury awards have shown that the failure to properly retain evidence can be seen as negligence", "C. Data can be deleted once the legal hold has been requested", "D. Once an organization realizes the potential of a court case, they need to delete information"],
+"correct_answer": "B"
+},
+{
+"question_id": 124,
+"question_text": "Which of the following tools can be used to capture and analyze network traffic?",
+"choices": ["A. Wireshark", "B. chmod", "C. Nmap", "D. nslookup"],
+"correct_answer": "A"
+},
+{
+"question_id": 125,
+"question_text": "Which of the following types of factors could be used to describe a fingerprint-based method of logging in and authenticating to a touchscreen device?",
+"choices": ["A. Something you know", "B. Something you have", "C. Something you are", "D. Something you do"],
+"correct_answer": "C"
+},
+{
+"question_id": 126,
+"question_text": "Your co-worker claims that because the latest application runs in a container, it doesn’t need security controls. What is the best reason why they are incorrect about this?",
+"choices": ["A. The host OS cannot see what is happening inside the container", "B. Containers are commonly run in the cloud", "C. Because containers have applications and dependencies, there are potential vulnerabilities within the container as well as potential vulnerabilities concerning its ability to communicate with the host OS", "D. Containers are commonly replicated in cloud environments, so security must be included to avoid large-scale attacks"],
+"correct_answer": "C"
+},
+{
+"question_id": 127,
+"question_text": "What policy outlines what an organization considers to be the appropriate use of its resources, such as computer systems, e-mail, Internet, and networks?",
+"choices": ["A. RUP", "B. AURP", "C. OUP", "D. AUP"],
+"correct_answer": "D"
+},
+{
+"question_id": 128,
+"question_text": "Jamsheed wants a legitimate, signed server certificate to enable TLS on his site. Of the following steps, which one should Jamsheed do first to get his certificate?",
+"choices": ["A. Generate a certificate revocation list", "B. Generate an admin account public password", "C. Build the Web site completely", "D. Generate a certificate signing request"],
+"correct_answer": "D"
+},
+{
+"question_id": 129,
+"question_text": "Which type of security testing does not provide any information at all to testers?",
+"choices": ["A. Known environment", "B. Partially known environment", "C. Laterally known environment", "D. Unknown environment"],
+"correct_answer": "D"
+},
+{
+"question_id": 130,
+"question_text": "Which type of security appliance tracks only individual packets?",
+"choices": ["A. Transparent proxy", "B. Stateful firewall", "C. Stateless firewall", "D. Load balancer"],
+"correct_answer": "C"
+},
+{
+"question_id": 131,
+"question_text": "Which of the following is used in Windows systems to identify a user account?",
+"choices": ["A. Security identifier (SID)", "B. User identifier (UID)", "C. Group identifier (GID)", "D. Access control entry (ACE)"],
+"correct_answer": "A"
+},
+{
+"question_id": 132,
+"question_text": "As the company’s technical executive, you are researching risk management strategies and have identified several security-related issues that need to be communicated to the organization. Which of the following mediums should you use to ensure issues are communicated effectively and users are held accountable?",
+"choices": ["A. Social media posting", "B. Hard-copy rulebook available from human resources", "C. Company-wide memo via e-mail", "D. Signed organizational policies"],
+"correct_answer": "D"
+},
+{
+"question_id": 133,
+"question_text": "Your manager would like to use a cloud service that allows you to create a virtual data center, including creating virtual machines for your company servers. What cloud service should you use?",
+"choices": ["A. PaaS", "B. IaaS", "C. SaaS", "D. XaaS"],
+"correct_answer": "B"
+},
+{
+"question_id": 134,
+"question_text": "A lawyer for a dismissed employee notifies the IT department that for evidence admissibility reasons, the employee’s laptop must be securely stored and all connectivity and modifications related to the machine must be strictly prohibited. Which term does this scenario most closely relate to?",
+"choices": ["A. Order of volatility", "B. Legal hold", "C. Data sovereignty", "D. Chain of custody"],
+"correct_answer": "B"
+},
+{
+"question_id": 135,
+"question_text": "Which of the following encryption algorithms is asymmetric?",
+"choices": ["A. 3DES", "B. RSA", "C. AES", "D. Blowfish"],
+"correct_answer": "B"
+},
+{
+"question_id": 136,
+"question_text": "You are installing a VPN remote access solution for your users so that they can connect to the network from home or while traveling. Which of the following services can you use to provide centralized authentication so that your users do not require separate credentials for the VPN?",
+"choices": ["A. Local username and password", "B. LDAP server", "C. Security token", "D. Call-back security"],
+"correct_answer": "B"
+},
+{
+"question_id": 137,
+"question_text": "You are the security administrator for a small business. You want to provide your users with the ability to encrypt outbound e-mail messages, but the company cannot afford an expensive encryption solution. Which of the following is the best option?",
+"choices": ["A. HTTPS", "B. POP/IMAP", "C. WPA2", "D. PGP/GPG"],
+"correct_answer": "D"
+},
+{
+"question_id": 138,
+"question_text": "Which type of cloud service is usually operated by a third-party provider that sells or rents “pieces” of the cloud to different entities, such as small businesses or large corporations, to use as they need?",
+"choices": ["A. External", "B. Private", "C. Community", "D. Public"],
+"correct_answer": "D"
+},
+{
+"question_id": 139,
+"question_text": "Which of the following statements about rootkits is correct?",
+"choices": ["A. Rootkits only affect UNIX systems", "B. Rootkits rely on command-and-control servers for direction", "C. Rootkits modify the operation of the operating system in some fashion", "D. Rootkits are only written at the kernel level"],
+"correct_answer": "C"
+},
+{
+"question_id": 140,
+"question_text": "Which protocol uses a ticket-granting service to prove user identity when accessing network resources?",
+"choices": ["A. TACACS", "B. RADIUS", "C. IPSec", "D. Kerberos"],
+"correct_answer": "D"
+},
+{
+"question_id": 141,
+"question_text": "Which of the following attacks might involve an attacker attempting to enter a facility with arms full of boxes, in an attempt to gain sympathy and have someone open the door for him or her?",
+"choices": ["A. Shoulder surfing", "B. Tailgating", "C. Dumpster diving", "D. Impersonation"],
+"correct_answer": "B"
+},
+{
+"question_id": 142,
+"question_text": "VoIP, HVAC systems, drones, surveillance systems, and multifunction printers all suffer from which of the following common weaknesses?",
+"choices": ["A. Measures to secure these systems are expensive and therefore are not typically implemented", "B. They are fairly secure due to 'security through obscurity'", "C. None of these are high-value assets", "D. Access via the Internet"],
+"correct_answer": "D"
+},
+{
+"question_id": 143,
+"question_text": "Which of the following attacks results in mathematical operations that the host or application cannot handle, causing them to fail?",
+"choices": ["A. SQL injection attack", "B. LDAP injection attack", "C. Directory traversal attack", "D. Integer overflow attack"],
+"correct_answer": "D"
+},
+{
+"question_id": 144,
+"question_text": "After seeing a few news stories about employees taking copies of sensitive data from their companies, your manager decides to prevent the use of USB drives. What security feature would you suggest?",
+"choices": ["A. NAC", "B. CRL", "C. DLP", "D. TPM"],
+"correct_answer": "C"
+},
+{
+"question_id": 145,
+"question_text": "Which type of virus attacks the first sector on the disk that contains operating system loader code and overwrites that code?",
+"choices": ["A. Executable", "B. Macro", "C. Boot sector", "D. Worm"],
+"correct_answer": "C"
+},
+{
+"question_id": 146,
+"question_text": "A piece of malware is trying to access a specific domain that's known to support botnets. Which of the following tools is most likely to stop this malware from 'phoning home'?",
+"choices": ["A. Intrusion detection system", "B. DNS sinkhole", "C. SIEM", "D. Port analyzer"],
+"correct_answer": "B"
+},
+{
+"question_id": 147,
+"question_text": "An attacker enters an office building and plugs his laptop into an unused network jack behind a plant in the reception area. He is then connected to the LAN, where he initiates an ARP poisoning attack. How could this have been prevented?",
+"choices": ["A. Update all virus scanners", "B. Use a strict IPSec policy for all LAN computers", "C. Disable unused switch ports", "D. Use a strict firewall policy on the perimeter firewall"],
+"correct_answer": ["B", "C"]
+},
+{
+"question_id": 148,
+"question_text": "When does a Cloud Access Security Broker (CASB) device work?",
+"choices": ["A. CASBs work with standard cloud services that exist remotely from the organization", "B. CASBs only work with cloud services in VPCs connected as a virtual network to the organization", "C. CASBs work only when placed internally at the organization", "D. CASBs work wherever the services are located, even when the CASB is also located in the cloud"],
+"correct_answer": "D"
+},
+{
+"question_id": 149,
+"question_text": "What capability is used to check the origin of an e-mail sender?",
+"choices": ["A. DLP", "B. NAC", "C. NIDS/NIPS", "D. DNS"],
+"correct_answer": "D"
+},
+{
+"question_id": 150,
+"question_text": "Which of the following is a port-based authentication method?",
+"choices": ["A. IPsec", "B. SSH", "C. 802.1X", "D. SSL"],
+"correct_answer": "C"
+},
+{
+"question_id": 151,
+"question_text": "Which of the following describes a rootkit?",
+"choices": ["A. A software that locks a system until a ransom is paid", "B. Malware that grants administrative control over a system without detection", "C. A program that self-replicates to infect other systems", "D. A benign hidden feature in software"],
+"correct_answer": "B"
+},
+{
+"question_id": 152,
+"question_text": "Which of the following describes a logic bomb?",
+"choices": ["A. Malware that hides in system memory", "B. Code that executes maliciously only when certain conditions are met", "C. A virus that infects both boot sectors and program files", "D. Malware that disguises itself as legitimate software"],
+"correct_answer": "B"
+},
+{
+"question_id": 153,
+"question_text": "Which method do attackers use to control compromised systems in a botnet?",
+"choices": ["A. Ransomware", "B. Stealth virus", "C. DLL injection", "D. Command and control (C2) server"],
+"correct_answer": "D"
+},
+{
+"question_id": 154,
+"question_text": "What is a polymorphic virus?",
+"choices": ["A. A virus that infects executable files", "B. A virus that changes its form every time it is executed", "C. A virus that hides in a document's macros", "D. A virus that rewrites itself before infecting a new file"],
+"correct_answer": "B"
+},
+{
+"question_id": 155,
+"question_text": "What is the function of a stealth virus?",
+"choices": ["A. It rewrites its own code entirely before infecting a file", "B. It hides itself to avoid detection by antivirus software", "C. It encrypts its content to evade detection", "D. It infects both the boot sector and system files"],
+"correct_answer": "B"
+},
+{
+"question_id": 156,
+"question_text": "What is a remote access trojan (RAT)?",
+"choices": ["A. A virus that infects boot sectors", "B. A virus that changes its form with each execution", "C. Malware that allows an attacker to control a computer remotely", "D. A virus that targets system files"],
+"correct_answer": "C"
+},
+{
+"question_id": 157,
+"question_text": "What is a logic bomb?",
+"choices": ["A. Malware that hides in system memory", "B. Code that executes maliciously only when certain conditions are met", "C. A virus that infects both boot sectors and program files", "D. Malware that disguises itself as legitimate software"],
+"correct_answer": "B"
+},
+{
+"question_id": 158,
+"question_text": "Which virus is known for embedding itself into documents and executing when the document is opened?",
+"choices": ["A. Macro virus", "B. Boot sector virus", "C. Program virus", "D. Encrypted virus"],
+"correct_answer": "A"
+},
+{
+"question_id": 159,
+"question_text": "What is the purpose of a honeypot in a security network?",
+"choices": ["A. To store critical data securely", "B. To detect and analyze intrusion attempts", "C. To prevent phishing attacks", "D. To encrypt sensitive information"],
+"correct_answer": "B"
+},
+{
+"question_id": 160,
+"question_text": "What type of cryptographic algorithm is ECC (Elliptic Curve Cryptography)?",
+"choices": ["A. Symmetric", "B. Hashing", "C. Asymmetric", "D. Stream cipher"],
+"correct_answer": "C"
+},
+{
+"question_id": 161,
+"question_text": "Which of the following best describes data that is properly labeled and marked according to classification levels?",
+"choices": ["A. Data disposal", "B. Data exfiltration", "C. Data retention", "D. Data handling"],
+"correct_answer": "D"
+},
+{
+"question_id": 162,
+"question_text": "Which of the following is a common practice to mitigate hardware obsolescence in a data center?",
+"choices": ["A. Implement data retention policies", "B. Adopt Infrastructure as a Service (IaaS)", "C. Implementing multifactor authentication (MFA)", "D. Implement a disaster recovery plan"],
+"correct_answer": "B"
+},
+{
+"question_id": 163,
+"question_text": "You have been asked to dispose of a hard drive containing sensitive information. What method should you use to ensure the data is unrecoverable?",
+"choices": ["A. Use a degausser", "B. Format the drive", "C. Delete the files", "D. Run an antivirus scan"],
+"correct_answer": "A"
+},
+{
+"question_id": 164,
+"question_text": "Which of the following is used to establish trust between different PKIs?",
+"choices": ["A. Cross-certification", "B. Kerberos", "C. Digital signatures", "D. Token-based authentication"],
+"correct_answer": "A"
+},
+{
+"question_id": 165,
+"question_text": "What is a key benefit of server hardening?",
+"choices": ["A. Reduces server redundancy", "B. Prevents unauthorized access", "C. Increases server storage capacity", "D. Optimizes server performance"],
+"correct_answer": "B"
+},
+{
+"question_id": 166,
+"question_text": "Which of the following is a strong hash algorithm used for ensuring integrity?",
+"choices": ["A. AES", "B. RSA", "C. MD5", "D. SHA-256"],
+"correct_answer": "D"
+},
+{
+"question_id": 167,
+"question_text": "What is the purpose of an Intrusion Prevention System (IPS)?",
+"choices": ["A. To prevent unauthorized data from being transmitted across the network", "B. To detect suspicious activity on the network", "C. To encrypt data for secure transmission", "D. To mitigate malware infections on endpoints"],
+"correct_answer": "A"
+},
+{
+"question_id": 168,
+"question_text": "Which of the following uses a system of trust where one CA trusts another, and users from different organizations can authenticate?",
+"choices": ["A. Web of Trust", "B. Certificate Revocation List", "C. Federated Identity", "D. Digital Signature Algorithm"],
+"correct_answer": "C"
+},
+{
+"question_id": 169,
+"question_text": "Which type of cloud deployment involves a combination of both private and public clouds?",
+"choices": ["A. Hybrid cloud", "B. Community cloud", "C. Private cloud", "D. Public cloud"],
+"correct_answer": "A"
+},
+{
+"question_id": 170,
+"question_text": "Which of the following is a technique used to prevent unauthorized access to network resources by placing restrictions on physical ports?",
+"choices": ["A. Port security", "B. VLAN tagging", "C. Subnetting", "D. MAC address spoofing"],
+"correct_answer": "A"
+},
+{
+"question_id": 171,
+"question_text": "Which of the following involves using a hashing algorithm to verify the integrity of a file?",
+"choices": ["A. Hashing", "B. Encryption", "C. Compression", "D. Fragmentation"],
+"correct_answer": "A"
+},
+{
+"question_id": 172,
+"question_text": "Which term is used to describe the process of organizing and storing backups to enable fast recovery?",
+"choices": ["A. Backup rotation", "B. Disaster recovery", "C. Archiving", "D. Hot-swapping"],
+"correct_answer": "A"
+},
+{
+"question_id": 173,
+"question_text": "Which of the following cloud computing models provides access to software and applications over the Internet?",
+"choices": ["A. PaaS", "B. IaaS", "C. SaaS", "D. DaaS"],
+"correct_answer": "C"
+},
+{
+"question_id": 174,
+"question_text": "Which type of control can be used to reduce the risk of a phishing attack?",
+"choices": ["A. Physical control", "B. Detective control", "C. Preventive control", "D. Corrective control"],
+"correct_answer": "C"
+},
+{
+"question_id": 175,
+"question_text": "Which of the following methods is used to ensure a computer or device only communicates with authorized systems in a trusted network?",
+"choices": ["A. Geofencing", "B. Sandboxing", "C. Whitelisting", "D. Blacklisting"],
+"correct_answer": "C"
+},
+{
+"question_id": 176,
+"question_text": "Which of the following describes the principle of least privilege?",
+"choices": ["A. Users are granted full access to perform their job functions", "B. Users are provided only the minimum access necessary to perform their job duties", "C. Administrators have access to everything in the system", "D. Users can access all network resources as long as they authenticate"],
+"correct_answer": "B"
+},
+{
+"question_id": 177,
+"question_text": "Which of the following describes the concept of high availability in networking?",
+"choices": ["A. The system is accessible only during specific times of the day", "B. The system can scale based on demand", "C. The system is designed to provide continuous uptime", "D. The system has multiple security features"],
+"correct_answer": "C"
+},
+{
+"question_id": 178,
+"question_text": "Which of the following terms refers to the practice of monitoring and analyzing network traffic to detect potential security threats?",
+"choices": ["A. Network segmentation", "B. Intrusion detection", "C. Firewall management", "D. VLAN hopping"],
+"correct_answer": "B"
+},
+{
+"question_id": 179,
+"question_text": "What is the purpose of a proxy server in a network?",
+"choices": ["A. To filter and cache web content", "B. To route traffic between VLANs", "C. To encrypt network data", "D. To authenticate users in a domain"],
+"correct_answer": "A"
+},
+{
+"question_id": 180,
+"question_text": "Which of the following encryption protocols is used to provide secure communication over a VPN?",
+"choices": ["A. FTP", "B. IPsec", "C. Telnet", "D. SNMP"],
+"correct_answer": "B"
+}
+]
+}
+
+
+
+
+
